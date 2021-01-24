@@ -1,0 +1,66 @@
+header {
+  background-color: rgb(238, 238, 238);
+  padding: 1em;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .nav-links .links {
+  display: flex;
+}
+
+header .logo .link,
+header .nav-links .links .link {
+  margin: 0 1em;
+  color: black;
+  padding: 0.5em;
+  border-radius: 10px;
+  transition: background-color 0.3s ease;
+}
+
+header .nav-links .links .link:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+header .sign-buttons {
+  display: flex;
+  align-items: center;
+}
+
+header .sign-buttons > div {
+  margin: 0 0.5em;
+}
+
+@media only screen and (max-width: 900px) {
+  header .logo {
+    padding: 0 0 1em 0;
+  }
+  header nav {
+    flex-direction: column;
+  }
+
+  header nav .nav-links .links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 2.2em;
+  }
+
+  header .sign-buttons {
+    margin-top: 2em;
+  }
+}
+
+header .loggedin {
+  display: flex;
+  align-items: center;
+}
+
+header .loggedin h3 {
+  font-weight: 200;
+  margin: 0 1em;
+}

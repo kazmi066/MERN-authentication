@@ -1,0 +1,17 @@
+.alert-box {
+  padding: 15px;
+  margin: 1em 0 0 0;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.failure {
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.success {
+  color: #000000;
+  background-color: #47ff6f;
+  border-color: #ca00ca;
+}
