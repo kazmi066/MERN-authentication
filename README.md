@@ -1,4 +1,4 @@
-# Authentication using MERN stack
+# Authentication (MERN stack)
 
 stuff used:
 - jwt
