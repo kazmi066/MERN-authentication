@@ -1,2 +1,8 @@
-# jwt-authentication
-jwt authentication with sessions and cookies
+# Authentication using MERN stack
+
+stuff used:
+- jwt
+- context API
+- Material ui
+- bcrypt for password encryption
+- express-sessions to store sessions
